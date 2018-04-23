@@ -31,7 +31,7 @@ Next, run the **configure** script which checks your system for necessary utilit
 make
 ```
 
-**(Optional)** On some systems, you may get a error message saying that a system-wide yasm is not found or no usable m4 found $PATH for /usr/5bin. Some additional packages may need to be installed such as the **yasm** assembler/disassembler for Intel x86 architecture the **m4** macro processor.
+**(Optional)** On some systems, you may get a error message saying that a system-wide yasm is not found or no usable m4 found $PATH for /usr/5bin. Some additional packages may need to be installed such as the **yasm** assembler/disassembler for Intel x86 architecture and the **m4** macro processor.
 
 ```
 sudo apt-get update && sudo apt-get dist-upgrade -y
