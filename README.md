@@ -2,6 +2,16 @@
 
 This project steps through computing and printing the first thousand decimal places of pi as well as the first million decimal places of pi.
 
+## Background - The Borwein Algorithm ##
+
+This program will derive the necessary correct digits of pi using the Borwein algorithm which calculates the value of 1/pi. There are several iterative algorithms which have difference convergence rates. This repository consists of two examples: quartic convergence and nonic convergence.
+
+**Quartic Convergence** converges quartically against 1/pi (i.e. each iteration approximately quadruples the number of correct digits).
+
+**Nonic Convergence** converges nonically to 1/pi (i.e. each iteration approximately multiplies the number of correct digits by nine).
+
+More information about the Borwein algorithm can be found [here](https://en.wikipedia.org/wiki/Borwein%27s_algorithm)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -62,17 +72,6 @@ g++ BigPi.cpp -lmpir -o BigPi
 
 The **-lmpir** specifies using the MPIR library.
 
-## Background - The Borwein Algorithm ##
-
-This program will derive the necessary correct digits of pi using the Borwein algorithm which calculates the value of 1/pi. There are several iterative algorithms which have difference convergence rates. This repository consists of two examples: quartic convergence and nonic convergence.
-
-**Quartic Convergence** converges quartically against 1/pi (i.e. each iteration approximately quadruples the number of correct digits).
-
-**Nonic Convergence** converges nonically to 1/pi (i.e. each iteration approximately multiplies the number of correct digits by nine).
-
-More information about the Borwein algorithm can be found [here](https://en.wikipedia.org/wiki/Borwein%27s_algorithm)
-
 ## Acknowledgments
 
-* Professor Ron Mak from San Jose State University
 * MPIR documentation
