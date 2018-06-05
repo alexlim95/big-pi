@@ -66,8 +66,8 @@ make install
 In order to compile and run your program **BigPi.cpp** on the command line:
 
 ```
-g++ BigPi.cpp -lmpir -o BigPi
-./BigPi
+g++ -std=c++11 BigPiThousandNonic.cpp -lmpir -o BigPiThousandNonic
+./BigPiThousandNonic
 ```
 
 The **-lmpir** specifies using the MPIR library.
