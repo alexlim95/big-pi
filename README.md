@@ -24,7 +24,7 @@ We will also be working with the Multiple Precision Integers and Rationals (MPIR
 
 We will be using the MPIR 3.0.0 version which can be downloaded [here](http://mpir.org/downloads.html) along with its [documentation](http://mpir.org/mpir-3.0.0.pdf).
 
-### Build And Install The library
+### Build And Install The Library
 
 The mpir-3.0.0 folder extracted from the mpir-3.0.0.zip file contains the necessary C source files and several shell scripts to get started. You can run the scripts on a Linux system in a bash terminal window.
 
